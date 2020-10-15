@@ -3,7 +3,7 @@ import { FiArrowRight } from 'react-icons/fi'
 
 import Link from 'next/link'
 
-import HappyLogo from '../../assets/logo.svg'
+import HappyLogo from '../../../public/assets/logo.svg'
 import { Container } from './styles'
 
 const Landing: React.FC = () => {
