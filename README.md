@@ -31,6 +31,7 @@
 ---
 
 ## 🚀 Tecnologias
+
 ## 🎨 Exemplos
 
 <h1 align="center">
@@ -41,7 +42,6 @@
     <img alt="Map" title="Map" src=".github/map.png" width="300px" />
   </a>
 </h1>
-
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -80,6 +80,7 @@ yarn typeorm migration:run
 ```
 
 Implante-o na nuvem com [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
 ## 📄 Api
 
 ```bash
@@ -88,7 +89,6 @@ Implante-o na nuvem com [Vercel](https://vercel.com/import?filter=next.js&utm_so
 
 /api/orphanages     # POST
 ```
-
 
 ## 🧾 Licença
 
