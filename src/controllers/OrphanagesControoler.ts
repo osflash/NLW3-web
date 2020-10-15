@@ -1,8 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next'
+import Orphanage from 'src/models/Orphanage'
 import { getRepository, getConnectionManager } from 'typeorm'
 import * as Yup from 'yup'
-
-import Orphanage from '../models/Orphanage'
 
 interface ExtendedRequest extends NextApiRequest {
   files: Express.Multer.File[]

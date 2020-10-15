@@ -20,12 +20,10 @@
   <a>
 </p>
 
-
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-backend">Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-frontend">Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-exemplos">Exemplos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-api">Api</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
@@ -33,6 +31,17 @@
 ---
 
 ## 🚀 Tecnologias
+## 🎨 Exemplos
+
+<h1 align="center">
+  <a href=".github/home.png">
+    <img alt="Home" title="Home" src=".github/home.png" width="300px" />
+  </a>
+  <a href=".github/map.png">
+    <img alt="Map" title="Map" src=".github/map.png" width="300px" />
+  </a>
+</h1>
+
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -71,6 +80,15 @@ yarn typeorm migration:run
 ```
 
 Implante-o na nuvem com [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## 📄 Api
+
+```bash
+/api/orphanages     # GET
+/api/orphanages/1   # GET
+
+/api/orphanages     # POST
+```
+
 
 ## 🧾 Licença
 
