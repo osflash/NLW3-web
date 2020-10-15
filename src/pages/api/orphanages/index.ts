@@ -15,10 +15,4 @@ handler.use(upload.array('images'))
 handler.get(OrphanagesController.index)
 handler.post(OrphanagesController.create)
 
-export const config = {
-  api: {
-    bodyParser: false
-  }
-}
-
 export default handler
