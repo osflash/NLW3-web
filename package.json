@@ -12,7 +12,8 @@
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "test": "jest",
     "test-all": "yarn lint && yarn type-check && yarn test",
-    "typeorm": "ts-node -P ./tsconfig.yarn.json ./node_modules/typeorm/cli.js"
+    "typeorm": "ts-node -P ./tsconfig.yarn.json ./node_modules/typeorm/cli.js",
+    "start:run": "yarn typeorm migration:run && next build"
   },
   "husky": {
     "hooks": {
